@@ -26,16 +26,16 @@ boton_leer = tk.Button(ventana, text="Leer Archivo", command=leer_archivo)
 boton_leer.pack()
 
 # Crear el cuadro de texto
-texto_entrada = tk.Text(ventana, height=10, width=50)
-texto_entrada.pack(pady=10)
+texto_entrada = tk.Text(ventana, height=15 ,width=75)
+texto_entrada.pack(pady=10, padx=10, fill='x')
 
 # Botón para realizar análisis
 boton_analisis = tk.Button(ventana, text="Análisis", command=realizar_analisis)
 boton_analisis.pack()
 
 # Crear el cuadro de texto de salida
-texto_salida = tk.Text(ventana, height=10, width=50)
-texto_salida.pack(fill='y', pady=10)
+texto_salida = tk.Text(ventana, height=15, width=75)
+texto_salida.pack(fill='both', pady=10, padx=10)
 
 
 

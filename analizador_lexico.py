@@ -1,8 +1,8 @@
 import re
 
 # Lectura del archivo
-with open("archivo.txt", "r") as file:
-    archivo = file.read()
+# with open("archivo.txt", "r") as file:
+#     archivo = file.read()
 
 # Patrones de expresiones regulares para los diferentes tokens.
 patrones = {
@@ -58,5 +58,5 @@ def realizarAnalisis(archivoTexto):
     return(respuesta)
 
     
-
+# Prueba por consola
 # print(realizarAnalisis(archivo))
