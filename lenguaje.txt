@@ -1,0 +1,19 @@
+programa           ::= declaraciones*
+
+declaraciones      ::= declaración_variable
+                     | asignación
+                     | declaración_función
+
+declaración_variable ::= DATA_TYPE IDENTIFIER TERMINAL_EXPRESSION
+
+asignación         ::= IDENTIFIER OPERATOR_ASSIGN expresion TERMINAL_EXPRESSION
+
+expresion          ::= termino
+                     | expresion OPERATOR termino
+
+termino             ::= IDENTIFIER
+                     | INTEGER_CONSTANT
+                     | FLOAT_CONSTANT
+                     | STRING_CONSTANT
+                     | CHAR_CONSTANT
+                     | BOOL_CONST

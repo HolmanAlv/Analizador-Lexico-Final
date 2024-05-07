@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
-import analizador_lexico as AL
+import analizadorLexico as AL
 
 def leer_archivo():
     filename = filedialog.askopenfilename()
