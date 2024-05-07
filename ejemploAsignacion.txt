@@ -1,0 +1,29 @@
+public class PruebaAnalizador {
+    public static void main(String[] args) {
+        // Declaración de variables
+        int entero;
+        float decimal;
+        double doble;
+        char caracter;
+        boolean booleano;
+        String cadena;
+
+        // Asignaciones
+        entero = 10;
+        decimal = 3.14f;
+        doble = 2.71828;
+        caracter = 'A';
+        booleano = true;
+        cadena = "Hola, mundo!";
+
+        // Declaraciones con asignaciones
+        int otroEntero = 20;
+        float otroDecimal = 5.5f;
+        double otroDoble = 6.022e23;
+        char otroCaracter = 'B';
+        boolean otroBooleano = false;
+        String otraCadena = "Adiós, mundo!";
+
+    }
+}
+
